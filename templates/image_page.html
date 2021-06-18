@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+            background-color: #ADD8E6; 
+            }
+
+            div{
+            text-align:center;
+            margin:auto;
+            }
+
+            .h1{
+            font-family:"Chalkduster", Chalkduster, Fantasy;
+            font-size: 50px;
+            font-weight: bold;
+            color:#FF1493
+            }
+        </style>
+        <title>Image Page</title>
+       
+    </head>
+    <body>
+        <div>
+            <h1 class='h1'>Wow, I like that dessert too!</h1>
+            <img src="{{ url_for('static', filename = f) }}">
+        </div>
+       
+     
+
+      
+
+
+</html>

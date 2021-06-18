@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+    <style>
+        
+        div {
+        text-align:center;
+        margin:auto;
+        border-radius: 50%;
+        width: 500px;
+        height: 500px;
+        padding: 150px;
+        }
+        .h1 {
+            font-family: "Chalkduster", Chalkduster, Fantasy;
+            font-size: 100px;
+            color: #1E90FF
+
+        }
+        .p {
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 40px;
+            font-weight: bold;
+            color:#FF1493
+        }
+        
+    </style>
+       
+    </head>
+    <body>
+       <div class = "center" style = "background-image: url('https://embed.widencdn.net/img/mccormick/u8pntu7ahp/1365x1365px/Vanilla_rich_chocolate_chip_cookies_004.jpg');">
+           
+        <h1 class ="h1">Favorite Dessert!</h1>
+        <p class="p">Upload your favorite yummy dessert.</p>
+       
+       <form
+           action = "/show_image" method="POST" enctype="multipart/form-data">
+           <input type = "file" name = "image" id = "image" >
+           <br><input type = "submit">
+           
+       </form>
+      </div>
+
+       <!-- <div class = "circle" id = "lightblue"></div> -->
+
+       </div>
+       
+    </body>
+
+
+</html>
