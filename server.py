@@ -20,7 +20,7 @@ def upload_file():
 
     if request.method == "POST":
         f = request.files['image']
-        f.save(os.path.join("static", f.filename))
+        f.save(os.path.join("image", f.filename))
         print(f.filename)
 
     return render_template("image_page.html", f = f.filename)
